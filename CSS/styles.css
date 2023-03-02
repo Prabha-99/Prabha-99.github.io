@@ -1,3 +1,5 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
 .section {
   height: 100vh;
   padding: 100px;
@@ -10,6 +12,41 @@
   background-color: #db4646;
   transition: background-color 0.5s ease-in-out;
 }
+
+a{
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+.nav-pills .nav-link {
+  background-color: #f80d0d; /* change to your desired background color */
+  color: #00153b; /* change to your desired text color */
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  background-color: #fff; /* change to your desired background color */
+  color: #05315f; /* change to your desired text color */
+  border-color: #05315f; /* change to your desired border color */
+}
+
+  
+.navbar-brand {
+    color: #e413c1; /* change to your desired text color */
+  }
+
+
+
+
+
+
 
 
 .background-image-section{
@@ -31,19 +68,5 @@
 
 
 
-.nav-pills .nav-link {
-  background-color: #f80d0d; /* change to your desired background color */
-  color: #00153b; /* change to your desired text color */
-}
 
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-  background-color: #fff; /* change to your desired background color */
-  color: #05315f; /* change to your desired text color */
-  border-color: #05315f; /* change to your desired border color */
-}
-
-  
-.navbar-brand {
-    color: #e413c1; /* change to your desired text color */
-  }
   
