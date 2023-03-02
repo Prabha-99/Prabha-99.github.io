@@ -1,3 +1,14 @@
+.section {
+  height: 100vh;
+  padding: 100px;
+}
+
+.navbar.fixed-top.scroll {
+  background-color: #db4646;
+  transition: background-color 0.5s ease-in-out;
+}
+
+
 .background-image-section{
     background-image: url("../Resources/me.jpg");
     background-size: cover;
@@ -29,8 +40,8 @@
 }
 
 .nav-pills .nav-link {
-  background-color: #000000; /* change to your desired background color */
-  color: #fff; /* change to your desired text color */
+  background-color: #f80d0d; /* change to your desired background color */
+  color: #00153b; /* change to your desired text color */
 }
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {

@@ -1,11 +1,17 @@
-.background-image-section{
+.section {
+    height: 100vh;
+    padding: 100px;
+  }
+  
+  .navbar.fixed-top.scroll {
+    background-color: #db4646;
+    transition: background-color 0.5s ease-in-out;
+  }
+
+  .background-image-section{
     background-image: url("../Resources/me.jpg");
     background-size: cover;
     background-position: center;
     height: 800px; /* adjust the height as needed */
 }
-
-.navbar-brand {
-    color: red;
-  }
   
