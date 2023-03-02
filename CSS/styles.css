@@ -1,6 +1,9 @@
 .section {
   height: 100vh;
   padding: 100px;
+  font-family: consolas;
+  font-weight: bold;
+  text-align: center;
 }
 
 .navbar.fixed-top.scroll {
@@ -26,18 +29,7 @@
 }
 
 
-.navbar-transparent {
-    background-color: transparent;
-    backdrop-filter: blur(10px); /* Optional: adds a blur effect to the background */
-  }
-  
 
-.my-custom-container-1{
-    margin-top: 200px;
-}
-.my-custom-container-2{
-    margin-top: 200px;
-}
 
 .nav-pills .nav-link {
   background-color: #f80d0d; /* change to your desired background color */
