@@ -6,64 +6,68 @@
   font-family: consolas;
   font-weight: bold;
   text-align: center;
+  color: #2b2b2b;
+  background-color: #ffffff;
 }
+
 
 .navbar.fixed-top.scroll {
   background-color: #db4646;
   transition: background-color 0.5s ease-in-out;
 }
 
-a{
-  text-decoration: none;
+.navbar-brand{
+  font-family: consolas;
+  font-size: 30px;
+  color:red; /* change to your desired text color */
 }
-
-
-
-
-
-
-
-
-
 
 .nav-pills .nav-link {
   background-color: #f80d0d; /* change to your desired background color */
-  color: #00153b; /* change to your desired text color */
+  color: #ffd900; /* change to your desired text color */
+  font-family: consolas;
+  font-weight: bolder;
+  font-size: 20px;
 }
-
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-  background-color: #fff; /* change to your desired background color */
-  color: #05315f; /* change to your desired text color */
-  border-color: #05315f; /* change to your desired border color */
-}
-
-  
-.navbar-brand {
-    color: #e413c1; /* change to your desired text color */
-  }
-
-
-
-
-
-
-
 
 .background-image-section{
-    background-image: url("../Resources/me.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 800px; /* adjust the height as needed */
+  background-image: url("../Resources/planets.gif");
+  background-size: cover;
+  background-position: center;
+  height: 800px; /* adjust the height as needed */
 }
 
-.background-image-section .content {
-    font-family:'consolas';
-    text-decoration: none;
-    font-size: large;
-    font-weight: bold;
-    text-align: center;
-    color: rgb(43,45,66);
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  75% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
+
+.hover-effect:hover {
+  animation: pulse 0.5s ease-out;
+}
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
