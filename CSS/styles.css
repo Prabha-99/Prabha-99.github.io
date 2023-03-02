@@ -1,0 +1,46 @@
+.background-image-section{
+    background-image: url("../Resources/me.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 800px; /* adjust the height as needed */
+}
+
+.background-image-section .content {
+    font-family:'consolas';
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(43,45,66);
+}
+
+
+.navbar-transparent {
+    background-color: transparent;
+    backdrop-filter: blur(10px); /* Optional: adds a blur effect to the background */
+  }
+  
+
+.my-custom-container-1{
+    margin-top: 200px;
+}
+.my-custom-container-2{
+    margin-top: 200px;
+}
+
+.nav-pills .nav-link {
+  background-color: #000000; /* change to your desired background color */
+  color: #fff; /* change to your desired text color */
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  background-color: #fff; /* change to your desired background color */
+  color: #05315f; /* change to your desired text color */
+  border-color: #05315f; /* change to your desired border color */
+}
+
+  
+.navbar-brand {
+    color: #e413c1; /* change to your desired text color */
+  }
+  
