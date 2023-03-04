@@ -10,10 +10,26 @@
   background-color: #ffffff;
 }
 
+.section h2{
+  font-family:consolas;
+  font-weight: bolder;
+}
+.section h4{
+  font-family:consolas;
+  font-weight: bold;
+}
+
 .container{
   margin-left: 100px;
 }
+.custom-border {
+  border-color: #ff0000;
+}
 
+#hi h1{
+  font-family: consolas;
+  font-size: 60px;
+}
 
 .navbar.fixed-top.scroll {
   background-color: #db4646;
@@ -57,7 +73,7 @@
   animation: pulse 0.5s ease-out;
 }
 .hover-skills:hover {
-  animation: flash 0.5s ease-out;
+  animation: bounce 0.5s ease-out;
 }
 .hover-image:hover {
   animation: bounce 0.5s ease-out;
