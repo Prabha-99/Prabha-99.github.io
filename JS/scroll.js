@@ -1,5 +1,5 @@
 var navbar = document.getElementById("navbar");
-  var navbarHeight = 700;
+  var navbarHeight = 644;
 
   window.onscroll = function() {
     if (window.pageYOffset > navbarHeight) {

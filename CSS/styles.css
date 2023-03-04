@@ -10,6 +10,10 @@
   background-color: #ffffff;
 }
 
+.container{
+  margin-left: 100px;
+}
+
 
 .navbar.fixed-top.scroll {
   background-color: #db4646;
@@ -31,10 +35,10 @@
 }
 
 .background-image-section{
-  background-image: url("../Resources/planets.gif");
+  background-image: url("../Resources/1.png");
   background-size: cover;
   background-position: center;
-  height: 800px; /* adjust the height as needed */
+  height: 744px; /* adjust the height as needed */
 }
 
 @keyframes pulse {
@@ -55,11 +59,22 @@
 .hover-skills:hover {
   animation: flash 0.5s ease-out;
 }
+.hover-image:hover {
+  animation: bounce 0.5s ease-out;
+}
 
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
   
+  }
 
-
-
+}
 
 
 
