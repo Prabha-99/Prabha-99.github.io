@@ -10,7 +10,7 @@ var navLinks = document.querySelectorAll(".nav-link"); // select all nav-link el
       navbar.style.backgroundColor = "#332D2D"; //Setting background color of navbar when scrolling down
       brand.style.color="#9754CB"; //Change the nav-brand color when scrolling to down
 
-      // Updating the color of all nav-links to white when scrolls down
+      // Updating the color of all nav-links to white when scrolls down.
         for(var i=0; i<navLinks.length; i++) {
             navLinks[i].style.color = "#9754CB";
         }
