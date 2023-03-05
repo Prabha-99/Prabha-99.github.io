@@ -31,23 +31,36 @@
   font-size: 60px;
 }
 
+span{
+  font-weight: bolder;
+  color:#ffd900 ;
+  text-shadow: #2b2b2b;
+}
+
 .navbar.fixed-top.scroll {
   background-color: #db4646;
   transition: background-color 0.5s ease-in-out;
 }
 
-.navbar-brand{
-  font-family: consolas;
-  font-size: 30px;
-  color:red; /* change to your desired text color */
-}
+/* .navbar-brand .logo{
+
+  height: 30%;
+  width: 30%;
+  /* font-family: consolas;
+  font-size: 30px; */
+  /* color:red; /*change to your desired text color */
+
 
 .nav-pills .nav-link {
-  background-color: #f80d0d; /* change to your desired background color */
+  
   color: #ffd900; /* change to your desired text color */
   font-family: consolas;
   font-weight: bolder;
   font-size: 20px;
+}
+
+.nav-pills .nav-link:hover{
+  color:#ffffff;
 }
 
 .background-image-section{
